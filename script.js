@@ -41,6 +41,35 @@ function quadrado() {
     console.log((num ** 2));
 }
 
+function retangulo() {
+    let num;
+    let num1;
+    num = parseInt(document.getElementById('10').value);
+    num1 = parseInt(document.getElementById('11').value);
+    document.getElementById('resultado5').innerText = num * num1;
+    console.log(num * num1);
+}
+
+function trapezio() {
+    let num;
+    let num1;
+    let num2;
+    num = parseInt(document.getElementById('12').value);
+    num1 = parseInt(document.getElementById('13').value);
+    num2 = parseInt(document.getElementById('14').value);
+    document.getElementById('resultado6').innerText = (num + num1) * num2;
+    console.log((num + num1) * num2);
+}
+
+function losango() {
+    let num;
+    let num1;
+    num = parseInt(document.getElementById('12').value);
+    num1 = parseInt(document.getElementById('13').value);
+    document.getElementById('resultado6').innerText = (num ** 2) * num1;
+    console.log((num ** 2) * num1);
+}
+
 
 
 
