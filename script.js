@@ -33,3 +33,28 @@ function triangulo() {
     document.getElementById('resultado3').innerText = (num * num1) / 2;
     console.log((num * num1) / 2);
 }
+
+function quadrado() {
+    let num;
+    num = parseInt(document.getElementById('9').value);
+    document.getElementById('resultado4').innerText = (num ** 2);
+    console.log((num ** 2));
+}
+
+
+
+
+
+
+
+
+// quadrado
+// retangulo
+// trapezio
+// losango
+// circulo
+// setor circular
+// coroa circular
+// elipse
+// paralelogramo
+// pligono regular
