@@ -1,0 +1,34 @@
+h1 {
+    color: yellow;
+}
+
+.portugues {
+    color: blue;
+}
+
+#espanhol {
+    color: red;
+}
+
+.display {
+    background-color: pink;
+    padding: 50px;
+    width: 50%;
+}
+
+.display-blue {
+    background-color: aqua;
+    padding: 50px;
+    width: 50%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.row {
+    background-color: greenyellow;
+    text-align: center;
+}
