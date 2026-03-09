@@ -86,6 +86,10 @@ function coroa() {
     console.log(3.14 * (num * num1));
 }
 
+function elipse() {
+    
+}
+
 
 
 
