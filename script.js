@@ -77,8 +77,13 @@ function circulo() {
     console.log((num ** 2) * 3.14);
 }
 
-function setor() {
-    
+function coroa() {
+    let num;
+    let num1;
+    num = parseInt(document.getElementById('18').value);
+    num1 = parseInt(document.getElementById('19').value);
+    document.getElementById('resultado9').innerText = 3.14 * (num * num1);
+    console.log(3.14 * (num * num1));
 }
 
 
