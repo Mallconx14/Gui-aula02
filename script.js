@@ -64,10 +64,21 @@ function trapezio() {
 function losango() {
     let num;
     let num1;
-    num = parseInt(document.getElementById('12').value);
-    num1 = parseInt(document.getElementById('13').value);
-    document.getElementById('resultado6').innerText = (num ** 2) * num1;
+    num = parseInt(document.getElementById('15').value);
+    num1 = parseInt(document.getElementById('16').value);
+    document.getElementById('resultado7').innerText = (num ** 2) * num1;
     console.log((num ** 2) * num1);
+}
+
+function circulo() {
+    let num;
+    num = parseInt(document.getElementById('17').value);
+    document.getElementById('resultado8').innerText = (num ** 2) * 3.14;
+    console.log((num ** 2) * 3.14);
+}
+
+function setor() {
+    
 }
 
 
