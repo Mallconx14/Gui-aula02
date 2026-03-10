@@ -82,8 +82,8 @@ function coroa() {
     let num1;
     num = parseInt(document.getElementById('18').value);
     num1 = parseInt(document.getElementById('19').value);
-    document.getElementById('resultado9').innerText = 3.14 * (num - num1);
-    console.log(3.14 * (num - num1));
+    document.getElementById('resultado9').innerText = 3.14 * ((num ** 2) - (num1 ** 2));
+    console.log(3.14 * ((num ** 2) - (num1 ** 2)));
 }
 
 function elipse() {
