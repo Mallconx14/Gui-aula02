@@ -82,12 +82,35 @@ function coroa() {
     let num1;
     num = parseInt(document.getElementById('18').value);
     num1 = parseInt(document.getElementById('19').value);
-    document.getElementById('resultado9').innerText = 3.14 * (num * num1);
-    console.log(3.14 * (num * num1));
+    document.getElementById('resultado9').innerText = 3.14 * (num - num1);
+    console.log(3.14 * (num - num1));
 }
 
 function elipse() {
-    
+    let num;
+    let num1;
+    num = parseInt(document.getElementById('20').value);
+    num1 = parseInt(document.getElementById('21').value);
+    document.getElementById('resultado10').innerText = 3.14 * num * num1;
+    console.log(3.14 * num * num1)
+}
+
+function paralelogramo() {
+    let num;
+    let num1;
+    num = parseInt(document.getElementById('22').value);
+    num1 = parseInt(document.getElementById('23').value);
+    document.getElementById('resultado11').innerText = num * num1;
+    console.log(num * num1);
+}
+
+function poligono() {
+    let num;
+    let num1;
+    num = parseInt(document.getElementById('24').value);
+    num1 = parseInt(document.getElementById('25').value);
+    document.getElementById('resultado12').innerText = num * num1;
+    console.log(num * num1);
 }
 
 
