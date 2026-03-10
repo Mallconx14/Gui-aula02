@@ -66,8 +66,8 @@ function losango() {
     let num1;
     num = parseInt(document.getElementById('15').value);
     num1 = parseInt(document.getElementById('16').value);
-    document.getElementById('resultado7').innerText = (num ** 2) * num1;
-    console.log((num ** 2) * num1);
+    document.getElementById('resultado7').innerText = (num * num1) / 2;
+    console.log((num * num1) / 2);
 }
 
 function circulo() {
